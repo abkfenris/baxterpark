@@ -1769,7 +1769,7 @@
         </maplayer>
         <maplayer minimumScale="0" maximumScale="1e+08" minLabelScale="0" maxLabelScale="1e+08" geometry="Line" type="vector" hasScaleBasedVisibilityFlag="0" scaleBasedLabelVisibilityFlag="0">
             <id>OGRGeoJSON_LineString20131124112202615</id>
-            <datasource>./datasources/openstreetmap/osm.json|layername=OGRGeoJSON|geometrytype=LineString</datasource>
+            <datasource>./datasources/openstreetmap/osm.json|layername=OGRGeoJSON|subset="highway" = 'path' OR "highway" = 'footway'|geometrytype=LineString</datasource>
             <title></title>
             <abstract></abstract>
             <keywordList>
@@ -1834,7 +1834,7 @@
                 <property key="labeling/dist" value="0"/>
                 <property key="labeling/distInMapUnits" value="false"/>
                 <property key="labeling/enabled" value="true"/>
-                <property key="labeling/fieldName" value="CASE &#xa;&#x9;WHEN    &quot;highway&quot; IS  'path' then &quot;name&quot;&#xa;ELSE&#xa;&#x9; NULL&#xa;END"/>
+                <property key="labeling/fieldName" value="name"/>
                 <property key="labeling/fontBold" value="false"/>
                 <property key="labeling/fontCapitals" value="0"/>
                 <property key="labeling/fontFamily" value=".Lucida Grande UI"/>
@@ -1850,7 +1850,7 @@
                 <property key="labeling/fontWeight" value="50"/>
                 <property key="labeling/fontWordSpacing" value="0"/>
                 <property key="labeling/formatNumbers" value="false"/>
-                <property key="labeling/isExpression" value="true"/>
+                <property key="labeling/isExpression" value="false"/>
                 <property key="labeling/labelOffsetInMapUnits" value="true"/>
                 <property key="labeling/labelPerPart" value="false"/>
                 <property key="labeling/leftDirectionSymbol" value="&lt;"/>

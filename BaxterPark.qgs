@@ -46,7 +46,7 @@
             <layer_coordinate_transform destAuthId="EPSG:4269" srcAuthId="EPSG:4326" srcDatumTransform="1188" destDatumTransform="-1" layerid="50Fcontour20131118213655967"/>
         </layer_coordinate_transform_info>
     </mapcanvas>
-    <legend updateDrawingOrder="true" activeLayer="OGRGeoJSON_LineString20131124112202615">
+    <legend updateDrawingOrder="true" activeLayer="ME_Features_2013102020131123230031962">
         <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="OGRGeoJSON Point" showFeatureCount="0">
             <filegroup open="true" hidden="false">
                 <legendlayerfile isInOverview="0" layerid="OGRGeoJSON_Point20131124112202223" visible="0"/>
@@ -1129,9 +1129,9 @@
             <excludeAttributesWFS/>
             <attributeactions/>
         </maplayer>
-        <maplayer minimumScale="0" maximumScale="50000" minLabelScale="0" maxLabelScale="1e+08" geometry="Point" type="vector" hasScaleBasedVisibilityFlag="1" scaleBasedLabelVisibilityFlag="0">
+        <maplayer minimumScale="-4.65661e-10" maximumScale="50000" minLabelScale="0" maxLabelScale="1e+08" geometry="Point" type="vector" hasScaleBasedVisibilityFlag="1" scaleBasedLabelVisibilityFlag="0">
             <id>ME_Features_2013102020131123230031962</id>
-            <datasource>file:./datasources/nationalmap/GeographicNames/ME_Features_20131020.txt?type=csv&amp;delimiter=%5Ct%7C&amp;xField=PRIM_LONG_DEC&amp;yField=PRIM_LAT_DEC&amp;spatialIndex=no&amp;subsetIndex=no&amp;watchFile=no</datasource>
+            <datasource>file:./datasources/nationalmap/GeographicNames/ME_Features_20131020.txt?type=csv&amp;delimiter=%5Ct%7C&amp;xField=PRIM_LONG_DEC&amp;yField=PRIM_LAT_DEC&amp;spatialIndex=no&amp;subsetIndex=no&amp;watchFile=no&amp;=&amp;=&amp;=&amp;=&amp;=&amp;=&amp;subset=%22FEATURE_CLASS%22%20!%3D%20'Trail'%20%20AND%20%22FEATURE_CLASS%22%20!%3D%20'Stream'%20AND%20%22FEATURE_CLASS%22%20!%3D%20'Lake'</datasource>
             <title></title>
             <abstract></abstract>
             <keywordList>

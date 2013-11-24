@@ -44,13 +44,13 @@
             <layer_coordinate_transform destAuthId="EPSG:4269" srcAuthId="EPSG:4326" srcDatumTransform="1188" destDatumTransform="-1" layerid="50Fcontour20131118213655967"/>
         </layer_coordinate_transform_info>
     </mapcanvas>
-    <legend updateDrawingOrder="true">
+    <legend updateDrawingOrder="true" activeLayer="ME_Features_2013102020131123230031962">
         <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="ME_Features_20131020" showFeatureCount="0">
             <filegroup open="true" hidden="false">
                 <legendlayerfile isInOverview="0" layerid="ME_Features_2013102020131123230031962" visible="1"/>
             </filegroup>
         </legendlayer>
-        <legendgroup open="false" checked="Qt::Checked" name="Hydrology">
+        <legendgroup open="true" checked="Qt::Checked" name="Hydrology">
             <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="NHDWaterbody" showFeatureCount="0">
                 <filegroup open="true" hidden="false">
                     <legendlayerfile isInOverview="0" layerid="NHDWaterbody20131118221451782" visible="1"/>
@@ -154,48 +154,6 @@
             </filegroup>
         </legendlayer>
     </legend>
-    <mapcanvas>
-        <units>degrees</units>
-        <extent>
-            <xmin>-69.00117736270757973</xmin>
-            <ymin>45.85818805874333037</ymin>
-            <xmax>-68.81625399105925567</xmax>
-            <ymax>45.95725415069779274</ymax>
-        </extent>
-        <projections>1</projections>
-        <destinationsrs>
-            <spatialrefsys>
-                <proj4>+proj=longlat +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +no_defs</proj4>
-                <srsid>3401</srsid>
-                <srid>4269</srid>
-                <authid>EPSG:4269</authid>
-                <description>NAD83</description>
-                <projectionacronym>longlat</projectionacronym>
-                <ellipsoidacronym>GRS80</ellipsoidacronym>
-                <geographicflag>true</geographicflag>
-            </spatialrefsys>
-        </destinationsrs>
-        <layer_coordinate_transform_info>
-            <layer_coordinate_transform destAuthId="EPSG:4269" srcAuthId="EPSG:4326" srcDatumTransform="1188" destDatumTransform="-1" layerid="20Mcontour20131118214726797"/>
-            <layer_coordinate_transform destAuthId="EPSG:4269" srcAuthId="EPSG:4326" srcDatumTransform="1188" destDatumTransform="-1" layerid="50Mcontour20131118214759143"/>
-            <layer_coordinate_transform destAuthId="EPSG:4269" srcAuthId="EPSG:4326" srcDatumTransform="1188" destDatumTransform="-1" layerid="10Mcontour20131118214633052"/>
-            <layer_coordinate_transform destAuthId="EPSG:4269" srcAuthId="EPSG:4326" srcDatumTransform="1188" destDatumTransform="-1" layerid="100Mcontour20131118214819432"/>
-            <layer_coordinate_transform destAuthId="EPSG:4269" srcAuthId="EPSG:4326" srcDatumTransform="1188" destDatumTransform="-1" layerid="NHDFlowline20131118221447784"/>
-            <layer_coordinate_transform destAuthId="EPSG:4269" srcAuthId="EPSG:4326" srcDatumTransform="1188" destDatumTransform="-1" layerid="aroostook20131118222111537"/>
-            <layer_coordinate_transform destAuthId="EPSG:4269" srcAuthId="EPSG:4326" srcDatumTransform="1188" destDatumTransform="-1" layerid="somerset20131118222324755"/>
-            <layer_coordinate_transform destAuthId="EPSG:4269" srcAuthId="EPSG:4326" srcDatumTransform="1188" destDatumTransform="-1" layerid="160Fcontour20131118214013401"/>
-            <layer_coordinate_transform destAuthId="EPSG:4269" srcAuthId="EPSG:4326" srcDatumTransform="1188" destDatumTransform="-1" layerid="piscataquis20131118222240123"/>
-            <layer_coordinate_transform destAuthId="EPSG:4269" srcAuthId="EPSG:4326" srcDatumTransform="1188" destDatumTransform="-1" layerid="200Fcontour20131118214036827"/>
-            <layer_coordinate_transform destAuthId="EPSG:4269" srcAuthId="EPSG:4326" srcDatumTransform="1188" destDatumTransform="-1" layerid="NHDWaterbody20131118221451782"/>
-            <layer_coordinate_transform destAuthId="EPSG:4269" srcAuthId="EPSG:4326" srcDatumTransform="1188" destDatumTransform="-1" layerid="penobscot20131118222157853"/>
-            <layer_coordinate_transform destAuthId="EPSG:4269" srcAuthId="EPSG:4326" srcDatumTransform="1188" destDatumTransform="-1" layerid="100Fcontour20131118213945136"/>
-            <layer_coordinate_transform destAuthId="EPSG:4269" srcAuthId="EPSG:4326" srcDatumTransform="1188" destDatumTransform="-1" layerid="landmark20131118221819053"/>
-            <layer_coordinate_transform destAuthId="EPSG:4269" srcAuthId="EPSG:4326" srcDatumTransform="1188" destDatumTransform="-1" layerid="40Fcontour20131118213531602"/>
-            <layer_coordinate_transform destAuthId="EPSG:4269" srcAuthId="EPSG:4326" srcDatumTransform="1188" destDatumTransform="-1" layerid="80Fcontour20131118213910016"/>
-            <layer_coordinate_transform destAuthId="EPSG:4269" srcAuthId="EPSG:4326" srcDatumTransform="1188" destDatumTransform="-1" layerid="20Fcontour20131118213222777"/>
-            <layer_coordinate_transform destAuthId="EPSG:4269" srcAuthId="EPSG:4326" srcDatumTransform="1188" destDatumTransform="-1" layerid="50Fcontour20131118213655967"/>
-        </layer_coordinate_transform_info>
-    </mapcanvas>
     <projectlayers layercount="20">
         <maplayer minimumScale="0" maximumScale="1e+08" minLabelScale="0" maxLabelScale="1e+08" geometry="Line" type="vector" hasScaleBasedVisibilityFlag="0" scaleBasedLabelVisibilityFlag="0">
             <id>100Fcontour20131118213945136</id>
@@ -1159,7 +1117,7 @@
             <excludeAttributesWFS/>
             <attributeactions/>
         </maplayer>
-        <maplayer minimumScale="0" maximumScale="50000" minLabelScale="0" maxLabelScale="1e+08" geometry="Point" type="vector" hasScaleBasedVisibilityFlag="1" scaleBasedLabelVisibilityFlag="0">
+        <maplayer minimumScale="-4.65661e-10" maximumScale="50000" minLabelScale="0" maxLabelScale="1e+08" geometry="Point" type="vector" hasScaleBasedVisibilityFlag="1" scaleBasedLabelVisibilityFlag="0">
             <id>ME_Features_2013102020131123230031962</id>
             <datasource>file:./datasources/nationalmap/GeographicNames/ME_Features_20131020.txt?type=csv&amp;delimiter=%5Ct%7C&amp;xField=PRIM_LONG_DEC&amp;yField=PRIM_LAT_DEC&amp;spatialIndex=no&amp;subsetIndex=no&amp;watchFile=no</datasource>
             <title></title>
@@ -1181,7 +1139,7 @@
                 </spatialrefsys>
             </srs>
             <provider encoding="System">delimitedtext</provider>
-            <previewExpression></previewExpression>
+            <previewExpression>COALESCE( "FEATURE_NAME", '&lt;NULL>' )</previewExpression>
             <vectorjoins/>
             <renderer-v2 symbollevels="0" type="singleSymbol">
                 <symbols>
@@ -1228,7 +1186,7 @@
                 <property key="labeling/dist" value="3"/>
                 <property key="labeling/distInMapUnits" value="false"/>
                 <property key="labeling/enabled" value="true"/>
-                <property key="labeling/fieldName" value="FEATURE_NAME"/>
+                <property key="labeling/fieldName" value="CASE &#xa;&#x9;WHEN  &quot;FEATURE_CLASS&quot;  IS  'Lake'  THEN NULL&#xa;&#x9;WHEN &quot;FEATURE_CLASS&quot; IS 'Pond' THEN NULL&#xa;&#x9;WHEN &quot;FEATURE_CLASS&quot; IS 'Stream' THEN NULL&#xa;ELSE&#xa;&#x9; &quot;FEATURE_NAME&quot; &#xa;END"/>
                 <property key="labeling/fontBold" value="false"/>
                 <property key="labeling/fontCapitals" value="0"/>
                 <property key="labeling/fontFamily" value=".Lucida Grande UI"/>
@@ -1244,7 +1202,7 @@
                 <property key="labeling/fontWeight" value="50"/>
                 <property key="labeling/fontWordSpacing" value="0"/>
                 <property key="labeling/formatNumbers" value="false"/>
-                <property key="labeling/isExpression" value="false"/>
+                <property key="labeling/isExpression" value="true"/>
                 <property key="labeling/labelOffsetInMapUnits" value="true"/>
                 <property key="labeling/labelPerPart" value="false"/>
                 <property key="labeling/leftDirectionSymbol" value="&lt;"/>
@@ -1371,16 +1329,16 @@
                 <edittype labelontop="0" editable="1" type="0" name="STATE_ALPHA"/>
                 <edittype labelontop="0" editable="1" type="0" name="STATE_NUMERIC"/>
             </edittypes>
-            <editform></editform>
+            <editform>.</editform>
             <editforminit></editforminit>
             <featformsuppress>0</featformsuppress>
-            <annotationform></annotationform>
+            <annotationform>.</annotationform>
             <editorlayout>generatedlayout</editorlayout>
             <excludeAttributesWMS/>
             <excludeAttributesWFS/>
             <attributeactions/>
         </maplayer>
-        <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" minLabelScale="0" maxLabelScale="1e+08" geometry="Line" type="vector" hasScaleBasedVisibilityFlag="0" scaleBasedLabelVisibilityFlag="0">
+        <maplayer minimumScale="0" maximumScale="1e+08" minLabelScale="0" maxLabelScale="1e+08" geometry="Line" type="vector" hasScaleBasedVisibilityFlag="0" scaleBasedLabelVisibilityFlag="0">
             <id>NHDFlowline20131118221447784</id>
             <datasource>./datasources/nationalmap/hydrology/NHDFlowline.json</datasource>
             <title></title>
@@ -1446,8 +1404,8 @@
                 <property key="labeling/displayAll" value="false"/>
                 <property key="labeling/dist" value="0"/>
                 <property key="labeling/distInMapUnits" value="false"/>
-                <property key="labeling/enabled" value="false"/>
-                <property key="labeling/fieldName" value=""/>
+                <property key="labeling/enabled" value="true"/>
+                <property key="labeling/fieldName" value="GNIS_Name"/>
                 <property key="labeling/fontBold" value="false"/>
                 <property key="labeling/fontCapitals" value="0"/>
                 <property key="labeling/fontFamily" value=".Lucida Grande UI"/>
@@ -1456,7 +1414,7 @@
                 <property key="labeling/fontLimitPixelSize" value="false"/>
                 <property key="labeling/fontMaxPixelSize" value="10000"/>
                 <property key="labeling/fontMinPixelSize" value="3"/>
-                <property key="labeling/fontSize" value="13"/>
+                <property key="labeling/fontSize" value="6"/>
                 <property key="labeling/fontSizeInMapUnits" value="false"/>
                 <property key="labeling/fontStrikeout" value="false"/>
                 <property key="labeling/fontUnderline" value="false"/>
@@ -1537,7 +1495,7 @@
                 <property key="labeling/textColorB" value="0"/>
                 <property key="labeling/textColorG" value="0"/>
                 <property key="labeling/textColorR" value="0"/>
-                <property key="labeling/textTransp" value="0"/>
+                <property key="labeling/textTransp" value="50"/>
                 <property key="labeling/upsidedownLabels" value="0"/>
                 <property key="labeling/wrapChar" value=""/>
                 <property key="labeling/xOffset" value="0"/>
@@ -1591,7 +1549,7 @@
             <excludeAttributesWFS/>
             <attributeactions/>
         </maplayer>
-        <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" minLabelScale="0" maxLabelScale="1e+08" geometry="Polygon" type="vector" hasScaleBasedVisibilityFlag="0" scaleBasedLabelVisibilityFlag="0">
+        <maplayer minimumScale="0" maximumScale="1e+08" minLabelScale="0" maxLabelScale="1e+08" geometry="Polygon" type="vector" hasScaleBasedVisibilityFlag="0" scaleBasedLabelVisibilityFlag="0">
             <id>NHDWaterbody20131118221451782</id>
             <datasource>./datasources/nationalmap/hydrology/NHDWaterbody.json</datasource>
             <title></title>
@@ -1649,13 +1607,13 @@
                 <property key="labeling/bufferSize" value="1"/>
                 <property key="labeling/bufferSizeInMapUnits" value="false"/>
                 <property key="labeling/bufferTransp" value="0"/>
-                <property key="labeling/centroidWhole" value="false"/>
+                <property key="labeling/centroidWhole" value="true"/>
                 <property key="labeling/decimals" value="3"/>
                 <property key="labeling/displayAll" value="false"/>
-                <property key="labeling/dist" value="0"/>
+                <property key="labeling/dist" value="3"/>
                 <property key="labeling/distInMapUnits" value="false"/>
-                <property key="labeling/enabled" value="false"/>
-                <property key="labeling/fieldName" value=""/>
+                <property key="labeling/enabled" value="true"/>
+                <property key="labeling/fieldName" value="GNIS_Name"/>
                 <property key="labeling/fontBold" value="false"/>
                 <property key="labeling/fontCapitals" value="0"/>
                 <property key="labeling/fontFamily" value=".Lucida Grande UI"/>
@@ -1664,7 +1622,7 @@
                 <property key="labeling/fontLimitPixelSize" value="false"/>
                 <property key="labeling/fontMaxPixelSize" value="10000"/>
                 <property key="labeling/fontMinPixelSize" value="3"/>
-                <property key="labeling/fontSize" value="13"/>
+                <property key="labeling/fontSize" value="8"/>
                 <property key="labeling/fontSizeInMapUnits" value="false"/>
                 <property key="labeling/fontStrikeout" value="false"/>
                 <property key="labeling/fontUnderline" value="false"/>
@@ -1695,9 +1653,9 @@
                 <property key="labeling/quadOffset" value="4"/>
                 <property key="labeling/reverseDirectionSymbol" value="false"/>
                 <property key="labeling/rightDirectionSymbol" value=">"/>
-                <property key="labeling/scaleMax" value="10000000"/>
+                <property key="labeling/scaleMax" value="26000"/>
                 <property key="labeling/scaleMin" value="1"/>
-                <property key="labeling/scaleVisibility" value="false"/>
+                <property key="labeling/scaleVisibility" value="true"/>
                 <property key="labeling/shadowBlendMode" value="6"/>
                 <property key="labeling/shadowColorB" value="0"/>
                 <property key="labeling/shadowColorG" value="0"/>
@@ -1745,7 +1703,7 @@
                 <property key="labeling/textColorB" value="0"/>
                 <property key="labeling/textColorG" value="0"/>
                 <property key="labeling/textColorR" value="0"/>
-                <property key="labeling/textTransp" value="0"/>
+                <property key="labeling/textTransp" value="49"/>
                 <property key="labeling/upsidedownLabels" value="0"/>
                 <property key="labeling/wrapChar" value=""/>
                 <property key="labeling/xOffset" value="0"/>
